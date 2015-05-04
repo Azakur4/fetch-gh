@@ -1,0 +1,19 @@
+{
+  "name": "Fetch-GH",
+  "main": "./lib/fetch-gh",
+  "version": "0.0.0",
+  "description": "Fetch Project from GitHub",
+  "activationCommands": {
+    "atom-workspace": "Fetch-GH:toggle"
+  },
+  "repository": "https://github.com/Azakur4/fetch-gh",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=0.174.0 <2.0.0"
+  },
+  "dependencies": {
+      "atom-space-pen-views": "^2.0.3",
+      "request": "^2.55.0",
+      "decompress-zip": "^0.1.0"
+  }
+}
